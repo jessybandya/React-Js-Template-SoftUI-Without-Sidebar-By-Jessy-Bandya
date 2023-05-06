@@ -400,7 +400,7 @@ function abbrNum(number, decPlaces) {
           color={light ? "white" : "dark"}
           style={{marginRight:8,cursor:'pointer',fontWeight:'bold',color:"#2152ff"}}
           onClick={handleShowCart}
-          className='smallDeviceToNotDisplayed'
+          
           >
           <Badge color="error" badgeContent={20}>
           <ShoppingCartIcon fontSize='small' style={{cursor:'pointer',color:'#2152ff'}}/>
@@ -433,7 +433,7 @@ function abbrNum(number, decPlaces) {
           <PowerSettingsNewIcon fontSize="medium" onClick={logout} style={{cursor:'pointer',color:'#2152ff'}}/>
         ):(
           <div>
-          <div className='smallDeviceToNotDisplayed'><Navbar/></div>
+          <div ><Navbar/></div>
           <div className='largeDeviceToNotDisplayed'><PowerSettingsNewIcon fontSize="medium" onClick={logout} style={{cursor:'pointer',color:'#2152ff'}}/></div>
           </div>
         )}
@@ -478,7 +478,7 @@ function abbrNum(number, decPlaces) {
           color={light ? "white" : "dark"}
           style={{marginRight:8,cursor:'pointer',fontWeight:'bold',color:"#2152ff"}}
           onClick={handleShowCart}
-          className='smallDeviceToNotDisplayed'
+          
           >
           <Badge color="error" badgeContent={20}>
           <ShoppingCartIcon fontSize='small' style={{color:'#2152ff'}}/>

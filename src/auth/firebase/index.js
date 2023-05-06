@@ -3,13 +3,7 @@ import firebase from 'firebase';
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyDgWa7CU2NpQsL6iyc5B_oT5tJvlHxk8YI",
-    authDomain: "electrika-store.firebaseapp.com",
-    projectId: "electrika-store",
-    storageBucket: "electrika-store.appspot.com",
-    messagingSenderId: "894259997674",
-    appId: "1:894259997674:web:44052da5fc23a581372093",
-    measurementId: "G-WLYKX83X6W"
+
   };
   
   const firebaseSApp = firebase.initializeApp(firebaseConfig);
